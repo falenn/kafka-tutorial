@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from confluent_kafka import Producer
 from datetime import datetime
 from dateutil.tz import tzutc

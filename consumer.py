@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from confluent_kafka import Consumer
 
 
