@@ -30,6 +30,7 @@ kafka-topics --bootstrap-server localhost:29092 --describe --topic mytopic
 # Test Data
 Generate 1KB file with null character, then base64 for use in sending to kafka
 ```
-fallocate -l 1KB | base64 > 1kbfile.txt
+fallocate -l 1KB 1kbfile
+base64 ./1kbfile > 1kbfile.txt
 ```
 
